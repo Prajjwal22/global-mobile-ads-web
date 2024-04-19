@@ -10,7 +10,7 @@ export default function Card() {
           <Users />
         </span>
       </div>
-      <span className="text-mute">
+      <span className="text-mute text-[15px] ">
         Our proprietary solution leverages an in-house database of 260M+
         customers and 2,000+ custom variables to build custom predictive models
         to drive business growth — from only the best customers.

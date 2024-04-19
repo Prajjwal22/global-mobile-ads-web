@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Button from "./Button";
 
 export default function Header() {
   return (
@@ -18,7 +19,7 @@ export default function Header() {
           <span>Services</span>
           <span>Case Studies</span>
         </nav>
-        <span className="ml-auto">Contact</span>
+        <span className="ml-auto"><Button title="Get in touch"/></span>
       </div>
     </header>
   );

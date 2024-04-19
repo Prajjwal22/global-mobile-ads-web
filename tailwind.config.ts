@@ -23,6 +23,9 @@ const config: Config = {
         secondary: "#2b53d6",
         mute: "#76787f",
       },
+      animation: {
+        'bounce-slow': 'bounce 3s linear infinite',
+      }
     },
   },
   plugins: [],
