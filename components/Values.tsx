@@ -5,14 +5,14 @@ import Button from "./Button";
 export default function Values() {
   return (
     <section className="w-full text-primary bg-[url('/border-b.svg')] bg-no-repeat bg-bottom px-2 pb-20 mb-10">
-      <div className="max-w-7xl m-auto flex flex-row justify-between items-center gap-20 ">
-        <div className="w-3/4">
+      <div className="max-w-7xl m-auto flex flex-col-reverse md:flex-row justify-between items-center md:gap-20 gap-10 ">
+        <div className="md:w-3/4">
           {" "}
           <Tabs />
         </div>
 
-        <div className="flex flex-col items-start gap-10 w-2/3">
-          <span className="text-5xl font-bold text-primary">
+        <div className="flex flex-col items-start gap-10 md:w-2/3">
+          <span className="md:text-5xl text-3xl font-bold text-primary">
             Why Numerique is your top-choice
           </span>
           <span>
