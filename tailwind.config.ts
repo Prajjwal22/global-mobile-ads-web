@@ -12,10 +12,17 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        hero: "url('/overview-bg.svg')",
       },
-      colors:{
-        primary:"#4F4D4D"
-      }
+      backgroundSize: {
+        heroSize: "75%",
+        mobheroSize: "100%",
+      },
+      colors: {
+        primary: "#26262c",
+        secondary: "#2b53d6",
+        mute: "#76787f",
+      },
     },
   },
   plugins: [],

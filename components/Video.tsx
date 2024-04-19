@@ -16,8 +16,8 @@ export default function Video() {
       >
         <source src="/hero-video.mp4" type="video/mp4" />
       </video>
-      <div className="absolute top-0 text-white m-auto flex-col flex items-center justify-center h-full w-2/3  text-center leading-tight	 z-20">
-        <h1 className=" font-bold text-6xl mb-10  ">
+      <div className="absolute top-0 text-white m-auto flex-col flex items-center justify-center h-full w-2/3  text-center leading-normal	 z-20">
+        <h1 className=" font-extrabold text-4xl md:text-7xl mb-10  ">
           Amplify Your Business with Real-Time Measurable Performance
         </h1>
         <span className="text-xl">

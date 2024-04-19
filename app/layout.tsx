@@ -3,7 +3,7 @@ import { Sora } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 
-const sora = Sora({ subsets: ["latin"], weight: ["400", "700", "500"] });
+const sora = Sora({ subsets: ["latin"], weight: ["400","500", "700", "800"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" >
+    <html lang="en" className="scroll-smooth" >
       <body className={sora.className}>
         <Header />
         {children}

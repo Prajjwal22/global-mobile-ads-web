@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className=" border-b h-20 border-gray-200">
+    <header className=" border-b h-20 border-gray-200 p-2">
       <div className="flex flex-row items-center h-full gap-20 text-primary justify-between m-auto max-w-6xl">
         <Image
           src="/site-logo.svg"
@@ -12,7 +12,7 @@ export default function Header() {
           width={200}
           height={200}
         />
-        <nav className="flex items-center gap-10">
+        <nav className="md:flex hidden items-center gap-10">
           <span>About</span>
           <span>Work</span>
           <span>Services</span>
