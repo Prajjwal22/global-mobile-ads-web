@@ -32,7 +32,7 @@ export default function Tabs() {
               </span>
               <Image
                 className="w-full"
-                src="/stats.svg"
+                src="/Stats.svg"
                 width={300}
                 height={100}
                 alt="image"
@@ -90,7 +90,7 @@ export default function Tabs() {
               </span>
               <Image
                 className="w-full"
-                src="/stats.svg"
+                src="/Stats.svg"
                 width={300}
                 height={100}
                 alt="image"
@@ -111,7 +111,7 @@ export default function Tabs() {
               </span>
               <Image
                 className="w-full"
-                src="/stats.svg"
+                src="/Stats.svg"
                 width={300}
                 height={100}
                 alt="image"
@@ -147,7 +147,7 @@ export default function Tabs() {
               </span>
               <Image
                 className="w-full"
-                src="/stats.svg"
+                src="/Stats.svg"
                 width={300}
                 height={100}
                 alt="image"
