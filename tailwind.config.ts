@@ -17,6 +17,9 @@ const config: Config = {
       backgroundSize: {
         heroSize: "75%",
         mobheroSize: "100%",
+        leftTriangle: "20vw auto",
+        rightTriangle: "12vw auto",
+
       },
       colors: {
         primary: "#26262c",
