@@ -22,10 +22,11 @@ const config: Config = {
         primary: "#26262c",
         secondary: "#2b53d6",
         mute: "#76787f",
+        cyanno: "#2ccab9",
       },
       animation: {
-        'bounce-slow': 'bounce 3s linear infinite',
-      }
+        "bounce-slow": "bounce 3s linear infinite",
+      },
     },
   },
   plugins: [],

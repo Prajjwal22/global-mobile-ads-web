@@ -1,3 +1,4 @@
+import Brands from "@/components/Brands/Brands";
 import Hero from "@/components/Hero";
 import Values from "@/components/Values";
 import Video from "@/components/Video";
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero/>
       <WhatWeDo/>
       <Values/>
+      <Brands/>
     </main>
   );
 }
