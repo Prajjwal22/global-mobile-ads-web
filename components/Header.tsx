@@ -37,7 +37,7 @@ export default function Header() {
           className="flex md:hidden items-center gap-3"
           onClick={handleMenuOpen}
         >
-          Menu{showMenu ? <Menu /> : <X />}
+          Menu{!showMenu ? <Menu /> : <X />}
         </div>
         {showMenu && (
           <nav
