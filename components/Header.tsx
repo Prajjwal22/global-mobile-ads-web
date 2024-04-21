@@ -43,7 +43,7 @@ export default function Header() {
           <nav
             className={`md:hidden text-4xl font-bold flex flex-col bottom-0 ${
               showMenu ? "left-0" : "-left-full"
-            }  transition-all duration-500 items-center gap-10 absolute w-screen h-[calc(100vh-5rem)] z-50 justify-around bg-primary text-white`}
+            }  transition-all duration-500 items-center gap-10 absolute w-screen h-[calc(100dvh-5rem)] z-50 justify-around bg-primary text-white`}
           >
             <span>About</span>
             <span>Work</span>
