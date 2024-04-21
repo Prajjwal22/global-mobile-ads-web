@@ -12,6 +12,7 @@ export default function Video() {
         controls={false}
         autoPlay
         loop
+        playsInline
         muted
         preload="none"
       >
