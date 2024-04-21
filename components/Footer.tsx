@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-primary text-white flex flex-col items-center justify-between">
+    <footer className="w-full bg-primary text-white flex flex-col items-center justify-between p-2 md:p-0">
       <div className="max-w-7xl  m-auto my-10">
         <div className="grid md:grid-cols-4 md:grid-rows-1 grid-rows-4 gap-5 justify-items-center">
           <Image src="/site-logo.svg" width={100} height={100} alt="logo" />

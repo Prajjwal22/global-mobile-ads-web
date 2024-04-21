@@ -7,7 +7,7 @@ export default function Services() {
       <div className="bg-[url('/cyan-triangle.svg')] bg-no-repeat bg-right-top bg-rightTriangle w-full h-full md:px-10 p-2 md:py-20">
         <div className="max-w-7xl m-auto flex md:flex-row flex-col items-center md:items-start">
           <span className="font-bold md:text-2xl text-xl w-1/4">Services</span>
-          <div className="md:w-3/4 flex flex-col md:pr-28">
+          <div className="md:w-3/4 flex flex-col w-webkit md:pr-28">
             <span className="md:text-5xl text-3xl font-bold md:text-left text-center mb-5">
               Advertising Solutions
             </span>

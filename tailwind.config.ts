@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      width: {
+        webkit: "-webkit-fill-available",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -19,7 +22,6 @@ const config: Config = {
         mobheroSize: "100%",
         leftTriangle: "20vw auto",
         rightTriangle: "12vw auto",
-
       },
       colors: {
         primary: "#26262c",
