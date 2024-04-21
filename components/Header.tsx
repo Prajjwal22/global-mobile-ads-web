@@ -6,7 +6,7 @@ import Button from "./Button";
 import { HamIcon, Menu, X } from "lucide-react";
 
 export default function Header() {
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
   const handleMenuOpen = () => {
     setShowMenu(!showMenu);
     !showMenu
