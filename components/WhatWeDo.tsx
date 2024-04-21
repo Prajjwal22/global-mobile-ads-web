@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+import { Rocket, RocketIcon, User } from "lucide-react";
 
 export default function WhatWeDo() {
   return (
@@ -24,9 +25,9 @@ export default function WhatWeDo() {
           </div>
         </div>
         <div className="flex flex-wrap gap-5 justify-between">
-          <Card />
-          <Card />
-          <Card />
+          <Card icon={<Rocket />} title="Marketing Tactic"/>
+          <Card icon={<User/>} title="User Audiences"/>
+          <Card icon={<RocketIcon /> } title="Performance Analysis"/>
         </div>
       </div>
     </section>

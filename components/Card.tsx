@@ -1,13 +1,19 @@
 import { Users } from "lucide-react";
-import React from "react";
+import React, { JSXElementConstructor, ReactNode } from "react";
 
-export default function Card() {
+type CardProps = {
+  icon: ReactNode; 
+  title:string
+};
+export default function Card({icon,title}:CardProps) {
   return (
     <div className="group  md:w-96 w-auto h-80 p-10 b border border-grey-100 hover:border-secondary transition-colors duration-500 flex flex-col justify-between">
       <div className="flex justify-between items-end">
-        <span className="font-bold text-3xl text-primary">Better Audiences</span>
+        <span className="font-bold text-3xl text-primary">
+         {title}
+        </span>
         <span className="p-5 bg-[#F7F7FA] rounded-full group-hover:bg-secondary group-hover:text-white transition-colors duration-500">
-          <Users />
+          {icon}
         </span>
       </div>
       <span className="text-mute text-[15px] ">
