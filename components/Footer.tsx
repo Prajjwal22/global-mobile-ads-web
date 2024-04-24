@@ -1,7 +1,13 @@
+'use client'
+
 import Image from "next/image";
-import React from "react";
+import React, { useLayoutEffect } from "react";
 
 export default function Footer() {
+
+    useLayoutEffect(() => {
+        console.log("video mounted")
+      }, []);
   return (
     <footer className="w-full bg-primary text-white flex flex-col items-center justify-between p-2 md:p-0">
       <div className="max-w-7xl  m-auto my-10">
