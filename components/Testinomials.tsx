@@ -4,6 +4,7 @@ import Button from "./Button";
 import Image from "next/image";
 import { EmblaCarousel } from "./Carousel";
 import { EmblaOptionsType, EmblaCarouselType } from "embla-carousel";
+import reviews from "../data/reviews.json";
 
 export default function Testinomials() {
   const OPTIONS: EmblaOptionsType = { dragFree: true, loop: true };
@@ -72,31 +73,41 @@ export default function Testinomials() {
             </div>
           </div>
         </div>
-        <div className="h-92 w-full bg-white   rounded-t-[15%] p-10 flex flex-col">
+        <div className="h-92 w-full bg-white   rounded-t-[15%] md:p-10 flex flex-col">
           <div className="flex flex-row items-center justify-between">
-            <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+            <div className="md:px-20 w-full">
+              <EmblaCarousel slides={reviews} options={OPTIONS} />
+            </div>
             <Image
               src="/Line-arrow-2.svg"
               width={500}
               height={600}
               alt="lines"
-              className="max-w-80 mr-20"
+              className="max-w-80 mr-20 hidden md:block"
             />
           </div>
-          <div className="ml-auto">
-            <div className="flex flex-row items-center gap-32  ">
+          <div className="md:ml-auto">
+            <div className="flex flex-row items-center justify-center md:gap-32  ">
               <div>
-                <Image src="/stars.png" className="w-28" width={500} height={500} alt="stars" />
+                <Image
+                  src="/stars.png"
+                  className="w-28"
+                  width={500}
+                  height={500}
+                  alt="stars"
+                />
                 <span>5000+ Client reviews</span>
               </div>
-              <div className="flex items-center gap-10">
+              <div className="flex items-center flex-col md:flex-row gap-10">
                 <Image
                   src="/testinomials.png"
                   width={100}
                   height={50}
                   alt="users"
                 />
-                <span className="border-b border-b-secondary cursor-pointer">Get Quotes →</span>
+                <span className="border-b border-b-secondary cursor-pointer">
+                  Get Quotes →
+                </span>
               </div>
             </div>
           </div>

@@ -9,9 +9,17 @@ import React, {
 import { EmblaOptionsType, EmblaCarouselType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
 import "../app/embla.css";
+import Image from "next/image";
+import ReviewCard from "./ReviewCard";
+
+type Reviews = {
+  review: string;
+  name: string;
+  designation: string;
+};
 
 type PropType = {
-  slides: number[];
+  slides: Reviews[];
   options?: EmblaOptionsType;
 };
 
@@ -28,11 +36,18 @@ export const EmblaCarousel: React.FC<PropType> = (props) => {
 
   return (
     <section className="embla">
+      <Image
+        src="/quote.png"
+        width={500}
+        height={500}
+        alt="quotes"
+        className="max-w-16 mb-16"
+      />
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container">
-          {slides.map((index) => (
+        <div className="embla__container max-w-full">
+          {slides.map((rr, index) => (
             <div className="embla__slide" key={index}>
-              <div className="embla__slide__number">{index + 1}</div>
+              <ReviewCard rr={rr} />
             </div>
           ))}
         </div>
