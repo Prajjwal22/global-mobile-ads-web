@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-mute w-full">
-        <div className="max-w-7xl flex justify-between m-auto py-10">
+        <div className="max-w-7xl flex justify-between text-sm m-auto py-10">
           <span>© 2024 GlobalMobileAds.com</span>
           <span>All Rights Reserved</span>
         </div>
