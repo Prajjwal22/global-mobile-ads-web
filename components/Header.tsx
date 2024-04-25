@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Button from "./Button";
 import { HamIcon, Menu, X } from "lucide-react";
+import Link from "next/link";
 
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
@@ -25,7 +26,9 @@ export default function Header() {
           height={200}
         />
         <nav className="md:flex hidden items-center gap-10">
-          <span>About</span>
+          <span>
+            <Link href="/about">About</Link>
+          </span>
           <span>Work</span>
           <span>Services</span>
           <span>Case Studies</span>
@@ -45,7 +48,9 @@ export default function Header() {
               showMenu ? "left-0" : "-left-full"
             }  transition-all duration-500 items-center gap-10 absolute w-screen h-[calc(100dvh-5rem)] z-50 justify-around bg-primary text-white`}
           >
-            <span>About</span>
+            <span>
+              <Link href="/about">About</Link>
+            </span>
             <span>Work</span>
             <span>Services</span>
             <span>Case Studies</span>

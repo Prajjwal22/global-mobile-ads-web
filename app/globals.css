@@ -41,3 +41,7 @@ body {
 .fix-scroll-bar {
   overflow: hidden;
   }
+
+  section p {
+    margin:10px 0
+  }

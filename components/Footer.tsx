@@ -32,7 +32,7 @@ export default function Footer() {
             <span className="font-bold text-2xl mb-2">Keep in touch</span>
             <span>123 Demo St, San Fransisco, CA 45678, United States.</span>
             <span>+1 123-456-7890</span>
-            <span>mail@example.com</span>
+            <span>info@globalmobileads.com</span>
           </div>
         </div>
       </div>
