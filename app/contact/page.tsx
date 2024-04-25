@@ -7,9 +7,9 @@ export default function ContactPage() {
       <PageHeader title="Contact Us " />
       <section className=" bg-[#F3F4F6]">
         <div className="max-w-7xl m-auto  py-20">
-          <div className="flex  items-center">
+          <div className="flex  items-center p-2">
             <div className="flex flex-col gap-10">
-              <span className="text-6xl font-extrabold">
+              <span className="md:text-6xl text-4xl font-extrabold">
                 Feel free to keep in touch
               </span>
               <span>
