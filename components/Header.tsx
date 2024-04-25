@@ -33,9 +33,12 @@ export default function Header() {
           <span>Services</span>
           <span>Case Studies</span>
         </nav>
-        <span className="ml-auto md:block hidden">
-          <Button title="Get in touch" />
-        </span>
+        <Link href="/contact">
+          {" "}
+          <span className="ml-auto md:block hidden">
+            <Button title="Get in touch" />
+          </span>
+        </Link>
         <div
           className="flex md:hidden items-center gap-3"
           onClick={handleMenuOpen}
