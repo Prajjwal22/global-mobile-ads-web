@@ -35,7 +35,7 @@ export default function AboutUs() {
               <div>
                 <p>
                   With its inception in 2022, GMA is a powerful team of super
-                  energized folks with more than a decade's industry experience,
+                  energized folks with more than a decade&apos;s industry experience,
                   driven to generate substantial business for our partners.
                 </p>
                 <p>
@@ -50,7 +50,7 @@ export default function AboutUs() {
                   their expectations.
                 </p>
                 <p>
-                  We'd be glad to help you scale your business & become a part
+                  We&apos;d be glad to help you scale your business & become a part
                   of your growth journey.
                 </p>
               </div>
@@ -92,7 +92,7 @@ export default function AboutUs() {
               <div>
                 <p>
                   With its inception in 2022, GMA is a powerful team of super
-                  energized folks with more than a decade's industry experience,
+                  energized folks with more than a decade&apos;s industry experience,
                   driven to generate substantial business for our partners.
                 </p>
                 <p>
@@ -107,7 +107,7 @@ export default function AboutUs() {
                   their expectations.
                 </p>
                 <p>
-                  We'd be glad to help you scale your business & become a part
+                  We&apos;d be glad to help you scale your business & become a part
                   of your growth journey.
                 </p>
               </div>
@@ -119,7 +119,7 @@ export default function AboutUs() {
               <div>
                 <p>
                   With its inception in 2022, GMA is a powerful team of super
-                  energized folks with more than a decade's industry experience,
+                  energized folks with more than a decade&apos;s industry experience,
                   driven to generate substantial business for our partners.
                 </p>
                 <p>
@@ -134,7 +134,7 @@ export default function AboutUs() {
                   their expectations.
                 </p>
                 <p>
-                  We'd be glad to help you scale your business & become a part
+                  We&apos;d be glad to help you scale your business & become a part
                   of your growth journey.
                 </p>
               </div>
