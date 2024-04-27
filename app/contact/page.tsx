@@ -31,10 +31,10 @@ export default function ContactPage() {
               </span>
               <span>
                 Stay connected! Whether you have questions, ideas, or just want
-                to say hello, I'd love to hear from you.
+                to say hello, I&apos;d love to hear from you.
               </span>
               <span>
-                Reach out anytime to chat, share thoughts, or collaborate. Let's
+                Reach out anytime to chat, share thoughts, or collaborate. Let&apos;s
                 keep the conversation going!
               </span>
             </div>
