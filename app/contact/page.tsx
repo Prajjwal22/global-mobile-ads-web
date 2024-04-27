@@ -11,7 +11,7 @@ export default function ContactPage() {
     message: "",
   });
 
-  const handleInput = (e: ChangeEvent) => {
+  const handleInput = (e: ChangeEvent<HTMLInputElement>|React.ChangeEvent<HTMLTextAreaElement>) => {
     setValues({
       ...values,
       [e.target.name]: e.target.value,
@@ -52,7 +52,7 @@ export default function ContactPage() {
             width="100%"
             height="480"
             style={{ border: "0" }}
-            allowFullScreen=""
+            allowFullScreen
             loading="lazy"
           ></iframe>
         </div>
@@ -63,7 +63,7 @@ export default function ContactPage() {
                 <form>
                   <div className="relative mb-6" data-te-input-wrapper-init>
                     <input
-                      onChange={handleInput}
+                      onChange={(e)=>handleInput(e)}
                       name="name"
                       type="text"
                       className="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
@@ -82,7 +82,7 @@ export default function ContactPage() {
                   </div>
                   <div className="relative mb-6" data-te-input-wrapper-init>
                     <input
-                      onChange={handleInput}
+                      onChange={(e)=>handleInput(e)}
                       name="email"
                       type="email"
                       className="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
@@ -101,7 +101,7 @@ export default function ContactPage() {
                   </div>
                   <div className="relative mb-6" data-te-input-wrapper-init>
                     <input
-                      onChange={handleInput}
+                      onChange={(e)=>handleInput(e)}
                       name="phone"
                       type="tel"
                       maxLength={12}
@@ -121,11 +121,11 @@ export default function ContactPage() {
                   </div>
                   <div className="relative mb-6" data-te-input-wrapper-init>
                     <textarea
-                      onChange={handleInput}
+                      onChange={(e)=>handleInput(e)}
                       name="message"
                       className="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
                       id="exampleFormControlTextarea1"
-                      rows="3"
+                      rows={3}
                     ></textarea>
                     <label
                       htmlFor="exampleFormControlTextarea1"
