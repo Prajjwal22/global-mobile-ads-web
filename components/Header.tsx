@@ -29,9 +29,11 @@ export default function Header() {
           <span>
             <Link href="/about">About</Link>
           </span>
-          <span>Work</span>
-          <span>Services</span>
-          <span>Case Studies</span>
+          <span><Link href="/#work">Work</Link></span>
+          <span>
+            <Link href="/#services">Services</Link>
+          </span>
+          <span> <Link href="/#partners">Partners</Link></span>
         </nav>
         <Link href="/contact">
           {" "}

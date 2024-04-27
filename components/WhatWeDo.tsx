@@ -4,7 +4,7 @@ import { Rocket, RocketIcon, User } from "lucide-react";
 
 export default function WhatWeDo() {
   return (
-    <section className="w-full text-primary bg-[url('/border-b.svg')] bg-no-repeat bg-bottom px-2 pb-20 mb-10">
+    <section id="work" className="w-full text-primary bg-[url('/border-b.svg')] bg-no-repeat bg-bottom px-2 pb-20 mb-10">
       <div className="max-w-7xl m-auto flex flex-col gap-10 ">
         <div className="flex md:flex-row flex-col justify-between items-center md:items-end gap-5">
           <div className=" flex flex-col items-center md:items-start justify-center gap-5">

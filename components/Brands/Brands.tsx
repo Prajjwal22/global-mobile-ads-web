@@ -33,7 +33,7 @@ export default function Brands() {
     }
   }, []);
   return (
-    <section className="w-full text-primary  px-2 pb-20 mb-10">
+    <section id="partners" className="w-full text-primary  px-2 pb-20 mb-10">
       <div className="max-w-7xl m-auto flex flex-col md:flex-row justify-between items-center gap-10">
         <div className="md:w-1/4 flex flex-col items-center md:items-start justify-center gap-5">
           <span className="text-lg md:text-xl">Our Partners</span>

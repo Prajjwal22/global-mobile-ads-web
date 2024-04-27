@@ -16,7 +16,7 @@ export default function Testinomials() {
       <div className="max-w-7xl m-auto flex flex-col md:flex-col justify-between items-center gap-10 h-auto  bg-[#e8edff45]">
         <div className="w-full flex flex-col justify-between items-center gap-10 p-10">
           <span className="font-bold text-4xl text-center">
-            The proof is in the nubers
+            The proof is in the numbers
           </span>
           <div className="flex flex-wrap items-center justify-around w-full gap-y-10">
             <div className="max-w-52 flex flex-col items-center ">
