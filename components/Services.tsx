@@ -57,7 +57,7 @@ export default function Services() {
                 <MonitorSmartphone className="text-cyanno " size={40} />
                 <span className="font-bold md:text-4xl text-2xl">Cross-Device Partnerships</span>
                 <span>
-                Forge meaningful connections across devices. Our cross-device partnerships ensure a seamless and consistent user experience, maximizing your brand's reach and impact.
+                Forge meaningful connections across devices. Our cross-device partnerships ensure a seamless and consistent user experience, maximizing your brand&apos;s reach and impact.
                 </span>
               </div>
             </div>
