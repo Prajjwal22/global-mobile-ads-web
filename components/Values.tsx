@@ -1,6 +1,7 @@
 import React from "react";
 import Tabs from "./Tabs";
 import Button from "./Button";
+import Link from "next/link";
 
 export default function Values() {
   return (
@@ -13,16 +14,17 @@ export default function Values() {
 
         <div className="flex flex-col items-start gap-10 md:w-2/3">
           <span className="md:text-5xl text-3xl font-bold text-primary">
-            Why Numerique is your top-choice
+            Why AppExcel should be your top choice{" "}
           </span>
           <span>
-            We are a five-star rated holistic full-service digital marketing
-            agencies, serving thousands of clients. Our digital agency covers
-            all aspects of internet marketing: SEO, social media, and PPC
-            management, all the way to email marketing, website design, and web
-            development.
+            With 25MN+ and ever growing acvtive mobile user base on our survey
+            panel, we have been very prominant in devlering effectivce user
+            acwuite and marketing campaigfs for top global mobile unicor
+            leveragibg these users based o their app/category affinity.
           </span>
-          <Button title="Get Proposal " />
+          <Link href="/contact">
+            <Button title="Get Proposal " />
+          </Link>
         </div>
       </div>
     </section>
