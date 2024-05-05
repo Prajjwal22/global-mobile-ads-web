@@ -27,11 +27,14 @@ export default function Header() {
         />
         <nav className="md:flex hidden items-center gap-10">
           <span>
+            <Link href="/">Home</Link>
+          </span>
+          <span>
             <Link href="/about">About</Link>
           </span>
-          <span><Link href="/#work">Work</Link></span>
+          <span><Link href="/work">Work</Link></span>
           <span>
-            <Link href="/#services">Services</Link>
+            <Link href="/services">Services</Link>
           </span>
           <span> <Link href="/#partners">Partners</Link></span>
         </nav>

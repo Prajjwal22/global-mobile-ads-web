@@ -29,16 +29,15 @@ export default function ContactPage() {
           <div className="flex  items-center p-2">
             <div className="flex flex-col gap-10">
               <span className="md:text-6xl text-4xl font-extrabold">
-                Feel free to keep in touch
+              Find the Perfect Partner for Your Business
               </span>
               <span>
-                Stay connected! Whether you have questions, ideas, or just want
-                to say hello, I&apos;d love to hear from you.
+              Whether you have questions, are interested in partnership opportunities, or need support, our team is ready to assist you. We look forward to connecting with you and exploring how AppExcvel can contribute to your digital success.
               </span>
-              <span>
+              {/* <span>
                 Reach out anytime to chat, share thoughts, or collaborate. Let&apos;s
                 keep the conversation going!
-              </span>
+              </span> */}
             </div>
             <div>
               <form action=""></form>
