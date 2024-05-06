@@ -1,6 +1,7 @@
 'use client'
 
 import Image from "next/image";
+import Link from "next/link";
 import React, { useLayoutEffect } from "react";
 
 export default function Footer() {
@@ -22,11 +23,10 @@ export default function Footer() {
           </div> */}
           <div className="flex flex-col items-start gap-1">
             <span className="font-bold text-2xl mb-2">Agency</span>
-            <span>About Us</span>
-            <span>Our Team</span>
-            <span>Awards</span>
-            <span>Contact Us</span>
-            <span>News & Blogs</span>
+            <Link href="/about"><span>About Us</span></Link>
+            <Link href="/services"> <span>Services</span></Link>
+            <Link href="/partnerships"> <span>Partnerships</span></Link>
+            <Link href="/contact"> <span>Contact Us</span></Link>
           </div>
           <div className="flex flex-col md:items-start gap-1 items-center">
             <span className="font-bold text-2xl mb-2">Keep in touch</span>
