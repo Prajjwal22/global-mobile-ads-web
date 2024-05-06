@@ -22,7 +22,7 @@ export default function AboutUs() {
               <span className="text-secondary font-bold text-2xl">
                 Hi there!
               </span>
-              <span className="text-primary font-extrabold text-base md:text-xl">
+              <span className="text-primary  text-base md:text-xl">
                 At AppExcel, we are driven by passion, innovation and
                 entrepreneurial commitment to help you excell in your marketing
                 & user acquition journey
@@ -31,9 +31,9 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="max-w-7xl m-auto text-lg">
-          <div className=" flex md:flex-row flex-col justify-center md:items-start items-center mb-32">
-            <span className="font-bold text-lg w-1/4">Vision</span>
-            <div className="w-3/4">
+          <div className=" flex flex-col justify-center md:items-start items-center mb-32">
+            <span className="font-bold text-2xl w-1/4">Vision</span>
+            <div className="w-3/4 border-t-2 border-cyanno pt-10">
               <div>
                 <p>
                   AppExcel&apos;s vision is to redefine digital advertising
@@ -74,8 +74,8 @@ export default function AboutUs() {
               </div> */}
             </div>
           </div>
-          <div className=" flex md:flex-row flex-col  md:items-start items-center  mb-32 mr-32">
-            <span className="font-bold text-lg w-1/4">
+          <div className=" flex  flex-col  md:items-start items-center  mb-32 mr-32">
+            <span className="font-bold text-2xl w-1/4">
               Champions striving for excellence
             </span>
             <div className="w-3/4 border-t-2 border-cyanno pt-10">
@@ -89,8 +89,8 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
-          <div className=" flex  md:flex-row flex-col md:items-start items-center pb-20">
-            <span className="font-bold text-lg w-1/4">
+          <div className=" flex   flex-col md:items-start items-center pb-20">
+            <span className="font-bold text-2xl w-1/4">
               Top priority - our parnters
             </span>
             <div className="w-3/4 border-t-2 border-cyanno pt-10">
@@ -105,8 +105,8 @@ export default function AboutUs() {
             </div>
           </div>
 
-          <div className=" flex  md:flex-row flex-col md:items-start items-center pb-20">
-            <span className="font-bold text-lg w-1/4">Innovation</span>
+          <div className=" flex   flex-col md:items-start items-center pb-20">
+            <span className="font-bold text-2xl w-1/4">Innovation</span>
             <div className="w-3/4 border-t-2 border-cyanno pt-10">
               <div>
                 <p>
@@ -117,8 +117,8 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
-          <div className=" flex  md:flex-row flex-col md:items-start items-center pb-20">
-            <span className="font-bold text-lg w-1/4">
+          <div className=" flex   flex-col md:items-start items-center pb-20">
+            <span className="font-bold text-2xl w-1/4">
               Data-Driven Precision
             </span>
             <div className="w-3/4 border-t-2 border-cyanno pt-10">

@@ -1,6 +1,7 @@
 "use client";
 
 import PageHeader from "@/components/PageHeader";
+import { MailIcon, MapIcon, PhoneCallIcon } from "lucide-react";
 import React, { ChangeEvent, useState } from "react";
 
 export default function ContactPage() {
@@ -11,7 +12,9 @@ export default function ContactPage() {
     message: "",
   });
 
-  const handleInput = (e: ChangeEvent<HTMLInputElement>|React.ChangeEvent<HTMLTextAreaElement>) => {
+  const handleInput = (
+    e: ChangeEvent<HTMLInputElement> | React.ChangeEvent<HTMLTextAreaElement>
+  ) => {
     setValues({
       ...values,
       [e.target.name]: e.target.value,
@@ -29,10 +32,10 @@ export default function ContactPage() {
           <div className="flex  items-center p-2">
             <div className="flex flex-col gap-10">
               <span className="md:text-6xl text-4xl font-extrabold">
-              Find the Perfect Partner for Your Business
+                Find the Perfect Partner for Your Business
               </span>
               <span>
-              Whether you have questions, are interested in partnership opportunities, or need support, our team is ready to assist you. We look forward to connecting with you and exploring how AppExcvel can contribute to your digital success.
+              If you have questions or interest in partnership opportunities, or need support, our team is ready to assist you. We look forward to connecting with you and exploring how AppExcel can contribute to your digital success.
               </span>
               {/* <span>
                 Reach out anytime to chat, share thoughts, or collaborate. Let&apos;s
@@ -44,7 +47,7 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-        <div
+        {/* <div
           id="map"
           className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat"
         >
@@ -56,15 +59,15 @@ export default function ContactPage() {
             allowFullScreen
             loading="lazy"
           ></iframe>
-        </div>
-        <div className="container px-6 md:px-12 m-auto    ">
+        </div> */}
+        <div className="container px-6 md:px-12 m-auto    mt-10 ">
           <div className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px] border border-gray-300">
             <div className="flex flex-wrap">
               <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
                 <form>
                   <div className="relative mb-6" data-te-input-wrapper-init>
                     <input
-                      onChange={(e)=>handleInput(e)}
+                      onChange={(e) => handleInput(e)}
                       name="name"
                       type="text"
                       className="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
@@ -83,7 +86,7 @@ export default function ContactPage() {
                   </div>
                   <div className="relative mb-6" data-te-input-wrapper-init>
                     <input
-                      onChange={(e)=>handleInput(e)}
+                      onChange={(e) => handleInput(e)}
                       name="email"
                       type="email"
                       className="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
@@ -102,7 +105,7 @@ export default function ContactPage() {
                   </div>
                   <div className="relative mb-6" data-te-input-wrapper-init>
                     <input
-                      onChange={(e)=>handleInput(e)}
+                      onChange={(e) => handleInput(e)}
                       name="phone"
                       type="tel"
                       maxLength={12}
@@ -122,7 +125,7 @@ export default function ContactPage() {
                   </div>
                   <div className="relative mb-6" data-te-input-wrapper-init>
                     <textarea
-                      onChange={(e)=>handleInput(e)}
+                      onChange={(e) => handleInput(e)}
                       name="message"
                       className="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
                       id="exampleFormControlTextarea1"
@@ -171,50 +174,19 @@ export default function ContactPage() {
                   Contact Information
                 </div>
                 <div className="flex items-center mb-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-primary mr-3"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zM8 8a2 2 0 114 0 2 2 0 01-4 0z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
+                  <MapIcon/>
                   <span className="text-neutral-500">
-                    123 New Street, New York, USA
+                    8 The Green STE R,
+                    <br />
+                    Dover, DE 199001, Kent County, USA
                   </span>
                 </div>
                 <div className="flex items-center mb-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-primary mr-3"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M14.083 2H5.917C4.863 2 4 2.851 4 3.938V16.06c0 1.087.863 1.938 1.917 1.938h8.166c1.054 0 1.917-.851 1.917-1.938V3.938C16 2.851 15.137 2 14.083 2zM15 16.06c0 .348-.269.938-.75.938H5.75c-.48 0-.75-.59-.75-.938V3.938C5 3.59 5.346 3 5.917 3h8.166c.57 0 .917.59.917.938V16.06z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  <span className="text-neutral-500">contact@example.com</span>
+                 <MailIcon/>
+                  <span className="text-neutral-500">info@appexcelmedia.com</span>
                 </div>
                 <div className="flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-primary mr-3"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M17.657 5.343a1 1 0 00-1.414 0L10 11.586 3.757 5.343a1 1 0 10-1.414 1.414l7.5 7.5a1 1 0 001.414 0l7.5-7.5a1 1 0 000-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
+                 <PhoneCallIcon/>
                   <span className="text-neutral-500">+1 (123) 456-7890</span>
                 </div>
               </div>

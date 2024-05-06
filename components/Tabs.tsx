@@ -55,9 +55,8 @@ export default function Tabs() {
                 222 100% Campaign transparency
               </span>
               <span>
-                We cultivate an environment of transparency and communication in
-                all we do. You don&apos;t have to wonder what is going on with
-                your campaign - we will keep you in the loop and in control.
+                A team of highly motivated experienced professionals driven to
+                deliver excellence
               </span>
               <Image
                 className="w-full"
@@ -123,9 +122,7 @@ export default function Tabs() {
                 222 100% Campaign transparency
               </span>
               <span>
-                We cultivate an environment of transparency and communication in
-                all we do. You don&apos;t have to wonder what is going on with
-                your campaign - we will keep you in the loop and in control.
+              A team of highly motivated experienced professionals driven to deliver excellence
               </span>
               <Image
                 className="w-full"
