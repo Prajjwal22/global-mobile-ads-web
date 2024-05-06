@@ -24,7 +24,7 @@ export default function Video() {
         <h1 className=" font-extrabold text-4xl md:text-6xl mb-10  ">
           Amplify Your Business with Real-Time Measurable Performance
         </h1>
-        <span className="text-xl">
+        <span className="text-4xl font-bold">
         <TypeWriter
                 strings={["Mobile Marketing", "Mobile Focused", "Data Driven", "ROI Concentrated"]}
                 typeSpeed={110}

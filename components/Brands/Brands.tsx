@@ -38,7 +38,7 @@ export default function Brands() {
         <div className="md:w-1/4 flex flex-col items-center md:items-start justify-center gap-5">
           {/* <span className="text-lg md:text-xl">Our Partners</span> */}
           <span className="text-3xl md:text-4xl font-bold text-center md:text-left">
-          Partners and brands we&apos;ve helped scale
+         Trusted Partners
           </span>
         </div>
         <div
