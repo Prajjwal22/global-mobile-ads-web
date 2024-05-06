@@ -1,4 +1,5 @@
 import PageHeader from "@/components/PageHeader";
+import Timeline from "@/components/Timeline";
 import Image from "next/image";
 import React from "react";
 
@@ -132,6 +133,7 @@ export default function AboutUs() {
               </div>
             </div>
           </div>
+          <Timeline/>
         </div>
       </section>
     </>
