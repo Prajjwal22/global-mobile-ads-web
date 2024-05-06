@@ -5,6 +5,7 @@ import Image from "next/image";
 import { EmblaCarousel } from "./Carousel";
 import { EmblaOptionsType, EmblaCarouselType } from "embla-carousel";
 import reviews from "../data/reviews.json";
+import Link from "next/link";
 
 export default function Testinomials() {
   const OPTIONS: EmblaOptionsType = { dragFree: true, loop: true };
@@ -106,7 +107,7 @@ export default function Testinomials() {
                   alt="users"
                 />
                 <span className="border-b border-b-secondary cursor-pointer">
-                  Get Quotes →
+                  <Link href="/contact"> Get Quotes →</Link>
                 </span>
               </div>
             </div>
