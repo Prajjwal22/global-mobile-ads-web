@@ -21,12 +21,12 @@ export default function Header() {
         <div className="flex items-center ">
           <Image
             src="/logo.jpg"
-            className="max-w-[100px]"
+            className="md:max-w-[100px] max-w-24"
             alt="logo"
             width={200}
             height={200}
           />
-          <span className="text-4xl font-bold ml-5 uppercase">AppExcel Media</span>
+          <span className="md:text-4xl  text-2xl font-bold ml-5 uppercase">AppExcel Media</span>
         </div>
         <nav className="md:flex hidden items-center gap-10">
           <span>
@@ -52,7 +52,7 @@ export default function Header() {
           </span>
         </Link> */}
         <div
-          className="flex md:hidden items-center gap-3"
+          className="flex md:hidden items-center gap-1 mr-10"
           onClick={handleMenuOpen}
         >
           Menu{!showMenu ? <Menu /> : <X />}
@@ -61,22 +61,22 @@ export default function Header() {
           <nav
             className={`md:hidden text-4xl font-bold flex flex-col bottom-0 ${
               showMenu ? "left-0" : "-left-full"
-            }  transition-all duration-500 items-center gap-10 absolute w-screen h-[calc(100dvh-5rem)] z-50 justify-around bg-primary text-white`}
+            }  transition-all duration-500 items-center gap-10 absolute w-screen h-[calc(100dvh-7rem)] z-50 justify-around bg-primary text-white`}
           >
             <span>
-              <Link href="/">Home</Link>
+              <Link onClick={()=>setShowMenu(false)} href="/">Home</Link>
             </span>
             <span>
-              <Link href="/about">About</Link>
+              <Link onClick={()=>setShowMenu(false)}  href="/about">About</Link>
             </span>
             <span>
-              <Link href="/partnerships">Partnerships</Link>
+              <Link onClick={()=>setShowMenu(false)}  href="/partnerships">Partnerships</Link>
             </span>
             <span>
-              <Link href="/services">Services</Link>
+              <Link onClick={()=>setShowMenu(false)}  href="/services">Services</Link>
             </span>
             <span>
-              <Link href="/contact">Contact Us</Link>
+              <Link onClick={()=>setShowMenu(false)}  href="/contact">Contact Us</Link>
             </span>
           </nav>
         )}
