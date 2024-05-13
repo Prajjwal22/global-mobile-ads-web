@@ -2,8 +2,15 @@ import PageHeader from "@/components/PageHeader";
 import Timeline from "@/components/Timeline";
 import Image from "next/image";
 import React from "react";
-
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'About Us',
+  description: 'AppExcel Media',
+}
 export default function AboutUs() {
+
+  
   return (
     <>
       <PageHeader title="About " />

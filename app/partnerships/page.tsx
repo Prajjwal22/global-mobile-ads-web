@@ -2,7 +2,12 @@ import Card from "@/components/Card";
 import PageHeader from "@/components/PageHeader";
 import { Cable, FileSearch, Smartphone, Target } from "lucide-react";
 import React from "react";
-
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Partnerships',
+  description: 'AppExcel Media',
+}
 export default function PartnershipsPage() {
   return (
     <>
