@@ -21,6 +21,7 @@ export default function Header() {
   const handleNav = (page: string) => {
     router.push(page);
     setShowMenu(false);
+    document.body.classList.remove("fix-scroll-bar");
   };
 
   return (
@@ -75,9 +76,7 @@ export default function Header() {
           >
             <span onClick={() => handleNav("/")}>Home</span>
             <span onClick={() => handleNav("/about")}>About</span>
-            <span onClick={() => handleNav("/partnerships")}>
-              Partnerships
-            </span>
+            <span onClick={() => handleNav("/partnerships")}>Partnerships</span>
             <span onClick={() => handleNav("/services")}>Services</span>
             <span onClick={() => handleNav("/contact")}>Contact Us</span>
           </nav>
