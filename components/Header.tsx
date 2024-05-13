@@ -5,14 +5,22 @@ import React, { useState } from "react";
 import Button from "./Button";
 import { HamIcon, Menu, X } from "lucide-react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
+
+  const router = useRouter();
   const handleMenuOpen = () => {
     setShowMenu(!showMenu);
     !showMenu
       ? document.body.classList.add("fix-scroll-bar")
       : document.body.classList.remove("fix-scroll-bar");
+  };
+
+  const handleNav = (page: string) => {
+    router.push(page);
+    setShowMenu(false);
   };
 
   return (
@@ -26,7 +34,9 @@ export default function Header() {
             width={200}
             height={200}
           />
-          <span className="md:text-4xl  text-2xl font-bold ml-5 uppercase">AppExcel Media</span>
+          <span className="md:text-4xl  text-2xl font-bold ml-5 uppercase">
+            AppExcel Media
+          </span>
         </div>
         <nav className="md:flex hidden items-center gap-10">
           <span>
@@ -63,21 +73,13 @@ export default function Header() {
               showMenu ? "left-0" : "-left-full"
             }  transition-all duration-500 items-center gap-10 absolute w-screen h-[calc(100dvh-7rem)] z-50 justify-around bg-primary text-white`}
           >
-            <span>
-              <Link onClick={()=>setShowMenu(false)} href="/">Home</Link>
+            <span onClick={() => handleNav("/")}>Home</span>
+            <span onClick={() => handleNav("/about")}>About</span>
+            <span onClick={() => handleNav("/partnerships")}>
+              Partnerships
             </span>
-            <span>
-              <Link onClick={()=>setShowMenu(false)}  href="/about">About</Link>
-            </span>
-            <span>
-              <Link onClick={()=>setShowMenu(false)}  href="/partnerships">Partnerships</Link>
-            </span>
-            <span>
-              <Link onClick={()=>setShowMenu(false)}  href="/services">Services</Link>
-            </span>
-            <span>
-              <Link onClick={()=>setShowMenu(false)}  href="/contact">Contact Us</Link>
-            </span>
+            <span onClick={() => handleNav("/services")}>Services</span>
+            <span onClick={() => handleNav("/contact")}>Contact Us</span>
           </nav>
         )}
       </div>
