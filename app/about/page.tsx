@@ -2,15 +2,15 @@ import PageHeader from "@/components/PageHeader";
 import Timeline from "@/components/Timeline";
 import Image from "next/image";
 import React from "react";
-import { Metadata } from 'next'
- 
-export const metadata: Metadata = {
-  title: 'About Us',
-  description: 'AppExcel Media',
-}
-export default function AboutUs() {
+import { Metadata } from "next";
+import Card from "@/components/Card";
+import { Database, Eye, Handshake, Lightbulb, Trophy } from "lucide-react";
 
-  
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "AppExcel Media",
+};
+export default function AboutUs() {
   return (
     <>
       <PageHeader title="About " />
@@ -38,7 +38,7 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
-        <div className="max-w-7xl m-auto text-lg">
+        {/* <div className="max-w-7xl m-auto text-lg">
           <div className=" flex flex-col justify-center md:items-start items-center mb-32">
             <span className="font-bold text-2xl w-1/4">Vision</span>
             <div className="w-3/4 border-t-2 border-cyanno pt-10">
@@ -50,7 +50,7 @@ export default function AboutUs() {
                   advertising technology.
                 </p>
               </div>
-              {/* <div className="grid grid-cols-3 gap-5 items-center justify-center">
+             <div className="grid grid-cols-3 gap-5 items-center justify-center">
                 <Image
                   className="col-span-2 w-full"
                   src="/about/1.jpg"
@@ -79,7 +79,7 @@ export default function AboutUs() {
                   width={500}
                   height={500}
                 />
-              </div> */}
+              </div> 
             </div>
           </div>
           <div className=" flex  flex-col  md:items-start items-center  mb-32 mr-32">
@@ -141,6 +141,41 @@ export default function AboutUs() {
             </div>
           </div>
           <Timeline/>
+        </div> */}
+        <div className="max-w-7xl m-auto pb-20">
+          <div className="flex flex-wrap gap-5 ">
+            <Card
+              icon={<Eye />}
+              title="Vision"
+              description="AppExcel's vision is to redefine digital advertising through innovation and strategic thinking. Our visionary foundation propels us forward, shaping the future of advertising technology              "
+            />
+            <Card
+              icon={<Trophy />}
+              title="Champions striving for excellence
+              "
+              description="We are professionals driven by expertise and a passion for excelling. Our diverse skill set fuels our ability to deliver unparalleled solutions, navigating the dynamic landscape of digital advertising with precision              "
+            />
+            <Card
+              icon={<Handshake />}
+              title="Top priority - our parnters              "
+              description="At AppExcel, we our priority is our you. We forge lasting partnerships, tailor our services to your unique needs, and are committed to providing a seamless experience that exceeds expectations. Your goals are our goals              "
+            />
+            <Card
+              icon={<Lightbulb />}
+              title="Innovation
+              "
+              description="Commitment to visionary innovation. Our team is driven by a shared passion for redefining digital advertising through forward-thinking strategies and cutting-edge solutions
+
+              "
+            />
+            <Card
+              icon={<Database />}
+              title="Data-Driven Precision              "
+              description="Campaigns succeed from data. Our experts leverage advanced algorithms and data analytics to ensure precision in targeting, providing insights that drive informed decision-making
+
+              "
+            />
+          </div>
         </div>
       </section>
     </>

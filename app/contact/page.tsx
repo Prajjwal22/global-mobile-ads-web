@@ -2,8 +2,8 @@
 
 import PageHeader from "@/components/PageHeader";
 import { MailIcon, MapIcon, PhoneCallIcon } from "lucide-react";
+import Link from "next/link";
 import React, { ChangeEvent, useState } from "react";
- 
 
 export default function ContactPage() {
   const [values, setValues] = useState({
@@ -36,7 +36,10 @@ export default function ContactPage() {
                 Find the Perfect Partner for Your Business
               </span>
               <span>
-              If you have questions or interest in partnership opportunities, or need support, our team is ready to assist you. We look forward to connecting with you and exploring how AppExcel can contribute to your digital success.
+                If you have questions or interest in partnership opportunities,
+                or need support, our team is ready to assist you. We look
+                forward to connecting with you and exploring how AppExcel can
+                contribute to your digital success.
               </span>
               {/* <span>
                 Reach out anytime to chat, share thoughts, or collaborate. Let&apos;s
@@ -144,7 +147,7 @@ export default function ContactPage() {
                       Message
                     </label>
                   </div>
-                  <div className="mb-6 inline-block min-h-[1.5rem] justify-center pl-[1.5rem] md:flex">
+                  {/* <div className="mb-6 inline-block min-h-[1.5rem] justify-center pl-[1.5rem] md:flex">
                     <input
                       className="relative float-left mt-[0.15rem] mr-[6px] -ml-[1.5rem] h-[1.125rem] w-[1.125rem] transition-all duration-200 ease-in-out rounded-md bg-[hsla(0,0%,100%,0.08)] checked:bg-[#2e51a2] peer-focus:ring-[#2e51a2] checked:ring-[#2e51a2] border-2 border-transparent focus:outline-none focus:border-transparent "
                       type="checkbox"
@@ -162,7 +165,7 @@ export default function ContactPage() {
                         Privacy Policy
                       </a>
                     </label>
-                  </div>
+                  </div> */}
                   <div className="flex items-center justify-center">
                     <button className="inline-block px-8 py-3 leading-[1.6] text-lg font-semibold text-center text-white transition-all duration-200 ease-linear bg-primary border border-primary hover:bg-transparent hover:text-primary hover:border-primary">
                       Submit
@@ -174,21 +177,35 @@ export default function ContactPage() {
                 <div className="text-[18px] font-semibold text-primary mb-6">
                   Contact Information
                 </div>
-                <div className="flex items-center mb-3">
-                  <MapIcon/>
+
+                <div className="flex items-start gap-3 mb-3 ">
+                  <MapIcon />
                   <span className="text-neutral-500">
                     8 The Green STE R,
                     <br />
                     Dover, DE 199001, Kent County, USA
                   </span>
                 </div>
-                <div className="flex items-center mb-3">
-                 <MailIcon/>
-                  <span className="text-neutral-500">info@appexcelmedia.com</span>
+                <div className="flex items-start gap-3 mb-3">
+                  <MailIcon />
+                  <span className="text-neutral-500">
+                    <Link href="mailto:info@appexcelmedia.com">
+                      info@appexcelmedia.com
+                    </Link>
+                  </span>
                 </div>
-                <div className="flex items-center">
-                 <PhoneCallIcon/>
-                  <span className="text-neutral-500">+1 (123) 456-7890</span>
+                <div className="flex items-start gap-3">
+                  <PhoneCallIcon />
+                  <span className="text-neutral-500">
+                    <Link href="tel:+1 302 257 6122"> USA +1 302 257 6122</Link>
+                    <br />
+                    <Link href="tel:+971 5010 37952">
+                      {" "}
+                      MENA +971 5010 37952
+                    </Link>
+                    <br />
+                    <Link href="tel:+91 99587 84044"> IN +91 99587 84044</Link>
+                  </span>
                 </div>
               </div>
             </div>

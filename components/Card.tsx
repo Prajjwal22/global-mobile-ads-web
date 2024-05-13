@@ -9,8 +9,8 @@ type CardProps = {
 export default function Card({icon,title,description}:CardProps) {
   return (
     <div className="group  md:w-96 w-auto 
-     p-10 b border border-grey-100 hover:border-secondary transition-colors duration-500 flex flex-col justify-between">
-      <div className="flex justify-between items-end">
+     p-10 b border border-grey-100 hover:border-secondary transition-colors duration-500 flex flex-col ">
+      <div className="flex justify-between items-end mb-5">
         <span className="font-bold text-2xl text-primary">
          {title}
         </span>

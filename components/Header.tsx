@@ -16,15 +16,18 @@ export default function Header() {
   };
 
   return (
-    <header className=" border-b h-20 border-gray-200 p-2">
+    <header className=" border-b h-28 border-gray-200 p-2">
       <div className="flex flex-row items-center h-full gap-20 text-primary justify-between m-auto max-w-6xl">
-        <Image
-          src="/logo.jpg"
-          className="max-w-16"
-          alt="logo"
-          width={200}
-          height={200}
-        />
+        <div className="flex items-center ">
+          <Image
+            src="/logo.jpg"
+            className="max-w-[100px]"
+            alt="logo"
+            width={200}
+            height={200}
+          />
+          <span className="text-4xl font-bold ml-5 uppercase">AppExcel Media</span>
+        </div>
         <nav className="md:flex hidden items-center gap-10">
           <span>
             <Link href="/">Home</Link>

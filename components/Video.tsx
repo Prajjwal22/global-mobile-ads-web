@@ -2,7 +2,6 @@ import { Mouse } from "lucide-react";
 import React from "react";
 import TypeWriter from "./TypeWriter";
 
-
 export default function Video() {
   return (
     <section className="h-[calc(100dvh-5rem)] relative flex items-center justify-center">
@@ -25,16 +24,25 @@ export default function Video() {
           Amplify Your Business with Real-Time Measurable Performance
         </h1>
         <span className="text-4xl font-bold">
-        <TypeWriter
-                strings={["Mobile Marketing", "Mobile Focused", "Data Driven", "ROI Concentrated"]}
-                typeSpeed={110}
-                loop={true}
-                backSpeed={70}
-                cursorChar="_"
-                showCursor={true}
-              />
+          <TypeWriter
+            strings={[
+              "Mobile Marketing",
+              "Mobile Focused",
+              "Data Driven",
+              "ROI Concentrated",
+              "Performance Marketing",
+              "App User Acquisition",
+            ]}
+            typeSpeed={110}
+            loop={true}
+            backSpeed={70}
+            cursorChar="_"
+            showCursor={true}
+          />
         </span>
-        <span className="bottom-0 absolute pb-5 animate-bounce-slow"><Mouse size={40} /></span>
+        <span className="bottom-0 absolute pb-5 animate-bounce-slow">
+          <Mouse size={40} />
+        </span>
       </div>
     </section>
   );

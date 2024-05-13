@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Services() {
   return (
-    <section id="services" className="w-full  bg-primary text-white bg-[url('/blue-triangle.svg')] bg-no-repeat bg-left-bottom bg-clipPath bg-leftTriangle  mb-10">
+    <section id="services" className="w-full  bg-primary text-white bg-[url('/blue-triangle.svg')] bg-no-repeat bg-left-bottom bg-leftTriangle  ">
       <div className="bg-[url('/cyan-triangle.svg')] bg-no-repeat bg-right-top bg-rightTriangle w-full h-full md:px-10 p-2 md:py-14">
         <div className="max-w-7xl m-auto flex md:flex-row flex-col items-center md:items-start">
           <span className="font-bold md:text-2xl text-xl mt-5">A bit deeper into our offerings</span>

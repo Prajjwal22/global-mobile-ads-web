@@ -1,6 +1,6 @@
 import Card from "@/components/Card";
 import PageHeader from "@/components/PageHeader";
-import { Cable, FileSearch, Smartphone, Target } from "lucide-react";
+import { Cable, FileSearch, Ratio, Smartphone, Target } from "lucide-react";
 import React from "react";
 import { Metadata } from 'next'
  
@@ -21,7 +21,7 @@ export default function PartnershipsPage() {
             <div className=" flex flex-col items-center md:items-start justify-center gap-5">
               {/* <span className="text-xl">What we do</span> */}
               <span className="text-4xl font-bold text-center md:text-left">
-                Our focus on
+                Our sheer focus
               </span>
             </div>
             <div className="md:w-2/5 flex flex-col items-start justify-center gap-5 ">
@@ -35,11 +35,11 @@ export default function PartnershipsPage() {
             </span> */}
             </div>
           </div>
-          <div className="flex flex-wrap gap-5 justify-between">
+          <div className="flex flex-wrap gap-5 ">
             <Card
               icon={<Smartphone />}
               title="In-house Mobile Userbase"
-              description="Elevate your user acquisition and retargeting strategies with our in house mobile users who have taken surveys on diversified verticals like travel, finance, shopping, lifestyle, etc. Drive relevant high-intent users to your brand, maximizing the impact of your campaigns."
+              description="Elevate your user acquisition and retargeting strategies with our in house mobile users who have taken surveys on diversified verticals like travel, finance, shopping, lifestyle, etc. Drive relevant high-intent users to your brand, maximizing the impact of your campaigns"
             />
             <Card
               icon={<Target />}
@@ -48,13 +48,18 @@ export default function PartnershipsPage() {
             />
             <Card
               icon={<Cable />}
-              title="Multi channels"
-              description="Extend your reach across platforms. Our partnership enables advertisers to target customers seamlessly across channels. Additionally, explore the advantages of private marketplaces for a tailored and efficient advertising experience."
+              title="Multi Channels"
+              description="Extend your reach across platforms. Our partnership enables advertisers to target customers seamlessly across channels. Additionally, explore the advantages of private marketplaces for a tailored and efficient advertising experience"
             />
             <Card
               icon={<FileSearch />}
               title="Transparent Detialed Reporting"
               description="Transparency is the major pillar of our partnership. Advertisers benefit from a clear and comprehensive view of campaign performance. Our detailed reporting ensures you have the insights needed to make informed decisions and optimize campaigns effectively"
+            />
+            <Card
+              icon={<Ratio />}
+              title="Impactful Solutions"
+              description="We go beyond traditional advertising. AppExcel is dedicated to helping brands and agency partners with creative solutions that captivate audiences. Elevate your brand's presence with innovative and impactful campaigns that leave a lasting impression"
             />
           </div>
         </div>
