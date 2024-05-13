@@ -19,7 +19,7 @@ export default function Header() {
     <header className=" border-b h-20 border-gray-200 p-2">
       <div className="flex flex-row items-center h-full gap-20 text-primary justify-between m-auto max-w-6xl">
         <Image
-          src="/site-logo.svg"
+          src="/logo.jpg"
           className="max-w-16"
           alt="logo"
           width={200}
@@ -32,7 +32,9 @@ export default function Header() {
           <span>
             <Link href="/about">About</Link>
           </span>
-          <span><Link href="/partnerships">Partnerships</Link></span>
+          <span>
+            <Link href="/partnerships">Partnerships</Link>
+          </span>
           <span>
             <Link href="/services">Services</Link>
           </span>
@@ -59,11 +61,20 @@ export default function Header() {
             }  transition-all duration-500 items-center gap-10 absolute w-screen h-[calc(100dvh-5rem)] z-50 justify-around bg-primary text-white`}
           >
             <span>
+              <Link href="/">Home</Link>
+            </span>
+            <span>
               <Link href="/about">About</Link>
             </span>
-            <span>Work</span>
-            <span>Services</span>
-            <span>Case Studies</span>
+            <span>
+              <Link href="/partnerships">Partnerships</Link>
+            </span>
+            <span>
+              <Link href="/services">Services</Link>
+            </span>
+            <span>
+              <Link href="/contact">Contact Us</Link>
+            </span>
           </nav>
         )}
       </div>
