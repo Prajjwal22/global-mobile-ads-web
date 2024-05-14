@@ -26,7 +26,7 @@ export default function Header() {
 
   return (
     <header className=" border-b h-28 border-gray-200 p-2">
-      <div className="flex flex-row items-center h-full gap-20 text-primary justify-between m-auto max-w-6xl">
+      <div className="flex flex-row items-center h-full text-primary justify-between m-auto max-w-6xl">
         <div className="flex items-center ">
           <Image
             src="/logo1.png"
@@ -63,7 +63,7 @@ export default function Header() {
           </span>
         </Link> */}
         <div
-          className="flex md:hidden items-center gap-1 mr-10"
+          className="flex md:hidden items-center gap-1"
           onClick={handleMenuOpen}
         >
           Menu{!showMenu ? <Menu /> : <X />}
