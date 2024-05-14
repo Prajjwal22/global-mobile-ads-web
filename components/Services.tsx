@@ -22,42 +22,42 @@ export default function Services() {
                 <UserPlus className="text-cyanno " size={40} />
                 <span className="font-bold md:text-4xl text-2xl">Effective User Acquisition</span>
                 <span>
-                Harnessing the power of advanced algorithms, we optimize user acquisition strategies to ensure your brand connects with the right audience at the right time. Our unified platform provides a comprehensive solution for mobile user growth.
+                Harnessing the power of advanced algorithms, we optimize user acquisition strategies to ensure your brand connects with the right audience at the right time. Our unified platform provides a comprehensive solution for mobile user growth
                 </span>
               </div>
               <div className="flex flex-col items-start gap-5 w-96 py-10 ">
                 <Filter className="text-cyanno " size={40} />
                 <span className="font-bold md:text-4xl text-2xl">Full-Funnel User Acquisition</span>
                 <span>
-                We go beyond the basics, offering a full-funnel approach to user acquisition. From precise forecasting of Lifetime Value (LTV) and in-app event conversion to driving incremental growth on a global scale, our strategies are designed for success.
+                We go beyond the basics, offering a full-funnel approach to user acquisition. From precise forecasting of Lifetime Value (LTV) and in-app event conversion to driving incremental growth on a global scale, our strategies are designed for success
                 </span>
               </div>
               <div className="flex flex-col items-start gap-5 w-96 py-10 ">
                 <Share className="text-cyanno " size={40} />
                 <span className="font-bold md:text-4xl text-2xl">High-Impact Creatives with Dynamic Creative Optimization</span>
                 <span>
-                Elevate your advertising efforts with high-impact creatives. Our proprietary Dynamic Creative Optimization ensures that your content resonates with your audience, driving engagement and conversion.
+                Elevate your advertising efforts with high-impact creatives. Our proprietary Dynamic Creative Optimization ensures that your content resonates with your audience, driving engagement and conversion
                 </span>
               </div>
               <div className="flex flex-col items-start gap-5 w-96 py-10 ">
                 <BrainCircuit className="text-cyanno " size={40} />
                 <span className="font-bold md:text-4xl text-2xl">Predictive Machine Learning</span>
                 <span>
-                Our advanced predictive machine learning algorithms optimize both behavioral and contextual data, ensuring that your campaigns are not only targeted but also adaptive, delivering optimal results.
+                Our advanced predictive machine learning algorithms optimize both behavioral and contextual data, ensuring that your campaigns are not only targeted but also adaptive, delivering optimal results
                 </span>
               </div>
               <div className="flex flex-col items-start gap-5 w-96 py-10 ">
                 <PencilRuler className="text-cyanno " size={40} />
                 <span className="font-bold md:text-4xl text-2xl">Re-engagement Strategies</span>
                 <span>
-                We understand the value of re-engaging your audience. With a focus on behavioral data analysis, dynamic ads, and deep links, we bring users back into the fold, guiding them directly to points of conversion.
+                We understand the value of re-engaging your audience. With a focus on behavioral data analysis, dynamic ads, and deep links, we bring users back into the fold, guiding them directly to points of conversion
                 </span>
               </div>
               <div className="flex flex-col items-start gap-5 w-96 py-10 ">
                 <MonitorSmartphone className="text-cyanno " size={40} />
                 <span className="font-bold md:text-4xl text-2xl">Cross-Device Partnerships</span>
                 <span>
-                Forge meaningful connections across devices. Our cross-device partnerships ensure a seamless and consistent user experience, maximizing your brand&apos;s reach and impact.
+                Forge meaningful connections across devices. Our cross-device partnerships ensure a seamless and consistent user experience, maximizing your brand&apos;s reach and impact
                 </span>
               </div>
             </div>

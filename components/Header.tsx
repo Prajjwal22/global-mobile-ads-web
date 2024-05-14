@@ -29,7 +29,7 @@ export default function Header() {
       <div className="flex flex-row items-center h-full gap-20 text-primary justify-between m-auto max-w-6xl">
         <div className="flex items-center ">
           <Image
-            src="/logo.jpg"
+            src="/logo1.png"
             className="md:max-w-[100px] max-w-24"
             alt="logo"
             width={200}

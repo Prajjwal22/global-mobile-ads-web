@@ -9,6 +9,9 @@ const sora = Sora({ subsets: ["latin"], weight: ["400","500", "700", "800"] });
 export const metadata: Metadata = {
   title: "AppExcel Media",
   description: "Delivering Excellence",
+  icons: {
+    icon: '/logo1.png', // /public path
+  },
 };
 
 export default function RootLayout({
