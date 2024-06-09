@@ -17,9 +17,9 @@ export default function Values() {
             Why AppExcel should be your top choice{" "}
           </span>
           <span>
-            With 25MN+ and ever growing active mobile user base on our survey
-            panel, we have been very prominant in delivering effectivce user
-            acquisition and marketing campaigns for top global mobile unicorn
+            With 25MN+ and an ever-growing active mobile user base on our survey
+            panel, we have been very prominent in delivering effective user
+            acquisition and marketing campaigns for top global mobile unicorns,
             leveraging these users based on their app/category affinity.
           </span>
           <Link href="/contact">

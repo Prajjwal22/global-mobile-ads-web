@@ -52,7 +52,7 @@ export default function Tabs() {
           {state === 1 && (
             <div className="bg-secondary text-white p-4 font-normal md:hidden flex flex-col items-start gap-5 ">
               <span className="md:text-2xl text-lg font-bold">
-                222 100% Campaign transparency
+                Champions delivering excellence
               </span>
               <span>
                 A team of highly motivated experienced professionals driven to
@@ -79,13 +79,15 @@ export default function Tabs() {
           </span>
           {state === 2 && (
             <div className="bg-secondary text-white p-4 font-normal md:hidden flex flex-col items-start gap-5 ">
-              <span className="md:text-2xl text-lg font-bold">
+              {/* <span className="md:text-2xl text-lg font-bold">
                 333 100% Campaign transparency
-              </span>
+              </span> */}
               <span>
-                We cultivate an environment of transparency and communication in
-                all we do. You don&apos;t have to wonder what is going on with
-                your campaign - we will keep you in the loop and in control.
+                At AppExcel, we are dedicated to helping businesses achieve
+                tangible results. Our team works closely with you to identify
+                challenges, develop strategies, and implement solutions that
+                drive growth and efficiency, helping you achieve your
+                marketing objectives.
               </span>
               <Image
                 className="w-full"
@@ -119,10 +121,11 @@ export default function Tabs() {
           ) : state === 1 ? (
             <div className="flex flex-col items-start gap-5">
               <span className="text-2xl font-bold">
-                222 100% Campaign transparency
+                Champions delivering excellence
               </span>
               <span>
-              A team of highly motivated experienced professionals driven to deliver excellence
+                A team of highly motivated experienced professionals driven to
+                deliver excellence
               </span>
               <Image
                 className="w-full"
@@ -134,13 +137,15 @@ export default function Tabs() {
             </div>
           ) : (
             <div className="flex flex-col items-start gap-5">
-              <span className="text-2xl font-bold">
+              {/* <span className="text-2xl font-bold">
                 333 100% Campaign transparency
-              </span>
+              </span> */}
               <span>
-                We cultivate an environment of transparency and communication in
-                all we do. You don&apos;t have to wonder what is going on with
-                your campaign - we will keep you in the loop and in control.
+                At AppExcel, we are dedicated to helping businesses achieve
+                tangible results. Our team works closely with you to identify
+                challenges, develop strategies, and implement solutions that
+                drive growth and efficiency, helping you achieve your marketing
+                objectives.
               </span>
               <Image
                 className="w-full"
