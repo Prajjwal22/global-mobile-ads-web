@@ -5,7 +5,6 @@ import React, { useState } from "react";
 
 export default function Tabs() {
   const [state, setState] = useState(0);
-  console.log(state);
   return (
     <div className="md:w-[600px] w-full">
       <div className="w-full">
