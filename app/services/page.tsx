@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "/",
+    canonical: "https://appexcelmedia.com/services",
   },
   openGraph: {
     images: "/logo.jpg",
