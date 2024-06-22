@@ -7,8 +7,22 @@ import Card from "@/components/Card";
 import { Database, Eye, Handshake, Lightbulb, Trophy } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us",
-  description: "AppExcel Media",
+  title: "About AppExcel Media: Innovating Advertising",
+  description:
+    "Learn about AppExcel Media's vision to innovate digital advertising. Our mission is to redefine possibilities and provide transformative solutions that empower businesses in the digital age.",
+  icons: {
+    icon: "/logo1.png", // /public path
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    images: "/logo.jpg",
+  },
 };
 export default function AboutUs() {
   return (

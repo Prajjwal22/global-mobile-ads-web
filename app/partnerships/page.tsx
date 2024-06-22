@@ -4,10 +4,27 @@ import { Cable, FileSearch, Ratio, Smartphone, Target } from "lucide-react";
 import React from "react";
 import { Metadata } from 'next'
  
+
 export const metadata: Metadata = {
-  title: 'Partnerships',
-  description: 'AppExcel Media',
-}
+  title: "AppExcel Media: Partner with Us",
+  description:
+    "Partner with AppExcel Media and leverage our innovative digital advertising solutions. Together, we can create transformative opportunities and drive business success. Explore partnership opportunities today.",
+  icons: {
+    icon: "/logo1.png", // /public path
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    images: "/logo.jpg",
+  },
+};
+
+
 export default function PartnershipsPage() {
   return (
     <>

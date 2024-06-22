@@ -2,8 +2,29 @@
 
 import PageHeader from "@/components/PageHeader";
 import { MailIcon, MapIcon, PhoneCallIcon } from "lucide-react";
+import { Metadata } from "next";
 import Link from "next/link";
 import React, { ChangeEvent, useState } from "react";
+
+
+export const metadata: Metadata = {
+  title: "Contact AppExcel Media: Advertising Experts",
+  description:
+    "Get in touch with AppExcel Media for expert digital advertising solutions. We're here to help your business thrive in a dynamic market. Contact us today to learn more",
+  icons: {
+    icon: "/logo1.png", // /public path
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    images: "/logo.jpg",
+  },
+};
 
 export default function ContactPage() {
   const [values, setValues] = useState({
