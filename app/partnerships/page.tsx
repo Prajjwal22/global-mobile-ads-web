@@ -6,9 +6,9 @@ import { Metadata } from 'next'
  
 
 export const metadata: Metadata = {
-  title: "AppExcel Media: Partner with Us",
+  title: "AppExceL: Partner with Us",
   description:
-    "Partner with AppExcel Media and leverage our innovative digital advertising solutions. Together, we can create transformative opportunities and drive business success. Explore partnership opportunities today.",
+    "Partner with AppExceL and leverage our innovative digital advertising solutions. Together, we can create transformative opportunities and drive business success. Explore partnership opportunities today.",
   icons: {
     icon: "/logo1.png", // /public path
   },
@@ -43,7 +43,7 @@ export default function PartnershipsPage() {
             </div>
             <div className="md:w-2/5 flex flex-col items-start justify-center gap-5 ">
               <span className="text-center md:text-left">
-                At AppExcel, our partnership with advertisers is a dynamic
+                At AppExceL, our partnership with advertisers is a dynamic
                 alliance that propels brands to new heights. Here&apos;s what
                 our partnership brings to the table
               </span>
@@ -61,7 +61,7 @@ export default function PartnershipsPage() {
             <Card
               icon={<Target />}
               title="Targeting"
-              description="At AppExcel, advertisers gain the ability to target customers through 10+ different vectors, providing unparalleled granularity. Access 25MN+ in house audience ensure your message reaches the right audience every time"
+              description="At AppExceL, advertisers gain the ability to target customers through 10+ different vectors, providing unparalleled granularity. Access 25MN+ in house audience ensure your message reaches the right audience every time"
             />
             <Card
               icon={<Cable />}

@@ -7,9 +7,9 @@ import Card from "@/components/Card";
 import { Database, Eye, Handshake, Lightbulb, Trophy } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About AppExcel Media: Innovating Advertising",
+  title: "About AppExceL: Innovating Advertising",
   description:
-    "Learn about AppExcel Media's vision to innovate digital advertising. Our mission is to redefine possibilities and provide transformative solutions that empower businesses in the digital age.",
+    "Learn about AppExceL's vision to innovate digital advertising. Our mission is to redefine possibilities and provide transformative solutions that empower businesses in the digital age.",
   icons: {
     icon: "/logo1.png", // /public path
   },
@@ -45,7 +45,7 @@ export default function AboutUs() {
                 Hi there!
               </span>
               <span className="text-primary  text-base md:text-xl">
-                At AppExcel, we are driven by passion, innovation and
+                At AppExceL, we are driven by passion, innovation and
                 entrepreneurial commitment to help you excell in your marketing
                 & user acquition journey
               </span>
@@ -172,7 +172,7 @@ export default function AboutUs() {
             <Card
               icon={<Handshake />}
               title="Top priority - our parnters              "
-              description="At AppExcel, we our priority is our you. We forge lasting partnerships, tailor our services to your unique needs, and are committed to providing a seamless experience that exceeds expectations. Your goals are our goals              "
+              description="At AppExceL, we our priority is our you. We forge lasting partnerships, tailor our services to your unique needs, and are committed to providing a seamless experience that exceeds expectations. Your goals are our goals              "
             />
             <Card
               icon={<Lightbulb />}

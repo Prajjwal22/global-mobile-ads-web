@@ -5,9 +5,9 @@ import { Metadata } from 'next'
  
 
 export const metadata: Metadata = {
-  title: "AppExcel Media: Our Services",
+  title: "AppExceL: Our Services",
   description:
-    "Explore AppExcel Media's comprehensive digital advertising services. From strategy to execution, we offer solutions that empower your business to thrive in a dynamic marketplace. Discover our services today.",
+    "Explore AppExceL's comprehensive digital advertising services. From strategy to execution, we offer solutions that empower your business to thrive in a dynamic marketplace. Discover our services today.",
   icons: {
     icon: "/logo1.png", // /public path
   },

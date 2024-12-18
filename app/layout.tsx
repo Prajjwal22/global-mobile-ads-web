@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 const sora = Sora({ subsets: ["latin"], weight: ["400", "500", "700", "800"] });
 
 export const metadata: Metadata = {
-  title: "AppExcel Media - Delivering Exellence",
+  title: "AppExceL - Delivering Excellence",
   description:
-    "Discover innovative digital advertising solutions with AppExcel Media. We empower businesses to thrive in a dynamic marketplace through transformative services. Join us in redefining digital advertising.",
+    "Discover innovative digital advertising solutions with AppExceL. We empower businesses to thrive in a dynamic marketplace through transformative services. Join us in redefining digital advertising.",
   icons: {
     icon: "/logo1.png", // /public path
   },

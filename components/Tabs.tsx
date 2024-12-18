@@ -82,7 +82,7 @@ export default function Tabs() {
                 333 100% Campaign transparency
               </span> */}
               <span>
-                At AppExcel, we are dedicated to helping businesses achieve
+                At AppExceL, we are dedicated to helping businesses achieve
                 tangible results. Our team works closely with you to identify
                 challenges, develop strategies, and implement solutions that
                 drive growth and efficiency, helping you achieve your
@@ -140,7 +140,7 @@ export default function Tabs() {
                 333 100% Campaign transparency
               </span> */}
               <span>
-                At AppExcel, we are dedicated to helping businesses achieve
+                At AppExceL, we are dedicated to helping businesses achieve
                 tangible results. Our team works closely with you to identify
                 challenges, develop strategies, and implement solutions that
                 drive growth and efficiency, helping you achieve your marketing

@@ -29,14 +29,14 @@ export default function Header() {
       <div className="flex flex-row items-center h-full text-primary justify-between m-auto max-w-6xl">
         <div className="flex items-center ">
           <Image
-            src="/logo1.png"
+          src="/logo.jpg"
             className="md:max-w-[100px] max-w-24"
             alt="logo"
             width={200}
             height={200}
           />
-          <span className="md:text-4xl  text-2xl font-bold ml-5 uppercase">
-            AppExcel Media
+          <span className="md:text-4xl  text-2xl font-bold ml-5 ">
+            AppExceL
           </span>
         </div>
         <nav className="md:flex hidden items-center gap-10">

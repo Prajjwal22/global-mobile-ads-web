@@ -14,7 +14,7 @@ export default function Values() {
 
         <div className="flex flex-col items-start gap-10 md:w-2/3">
           <span className="md:text-5xl text-3xl font-bold text-primary">
-            Why AppExcel should be your top choice{" "}
+            Why AppExceL should be your top choice{" "}
           </span>
           <span>
             With 25MN+ and an ever-growing active mobile user base on our survey
