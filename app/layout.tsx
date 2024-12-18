@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const sora = Sora({ subsets: ["latin"], weight: ["400", "500", "700", "800"] });
 
 export const metadata: Metadata = {
-  title: "AppExcel Media - Delivering Expereinces",
+  title: "AppExcel Media - Delivering Exellence",
   description:
     "Discover innovative digital advertising solutions with AppExcel Media. We empower businesses to thrive in a dynamic marketplace through transformative services. Join us in redefining digital advertising.",
   icons: {
@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     images: "/logo.jpg",
   },
 };
+
+
+console.log("PRajjwal")
 
 export default function RootLayout({
   children,
