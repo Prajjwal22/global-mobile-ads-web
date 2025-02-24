@@ -164,9 +164,11 @@ export default function ContactForm() {
         <div className="flex items-start gap-3 mb-3 ">
           <MapIcon />
           <span className="text-neutral-500">
-            8 The Green STE R,
+            8 The Green STE B,
             <br />
-            Dover, DE 199001, Kent County, USA
+            Dover, DE 199001, Kent County,
+            <br />
+            United States of America.
           </span>
         </div>
         <div className="flex items-start gap-3 mb-3">

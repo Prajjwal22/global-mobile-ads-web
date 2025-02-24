@@ -5,7 +5,6 @@ import Link from "next/link";
 import React, { useLayoutEffect } from "react";
 
 export default function Footer() {
-
   return (
     <footer className="w-full bg-primary text-white flex flex-col items-center justify-between p-2 md:p-0">
       <div className="max-w-7xl  m-auto my-10">
@@ -39,7 +38,8 @@ export default function Footer() {
           <div className="flex flex-col md:items-start gap-1 items-center">
             <span className="font-bold text-2xl mb-2">Keep in touch</span>
             <span>
-              8 The Green STE R, Dover, DE 199001, Kent County, United States.
+              8 The Green STE B, Dover, DE 19901, Kent County, United States of
+              America.
             </span>
             <span>
               {" "}
